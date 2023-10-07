@@ -13,7 +13,7 @@ export default function About() {
       bgImg={`url(${bg3.src})`}
       bgSize={"cover"}
       id="about"
-      mb="50vh"
+      mb="40vh"
     >
       <Stack
         w="800px"
