@@ -26,30 +26,24 @@ export default function About() {
           <Flex w="50px" h="3px" bg="black"></Flex>
         </Flex>
         <Text fontWeight={"light"} fontSize={"18px"}>
-          I'm currently working as Senior 3D Artist at Bohemia Interactive
-          Simulations in London. In addition to my full-time work, I have
-          released some games, most notably, Congo (PC) and The Lawless (iOS &
-          Android) as well as a few 2D mobile apps and games.
+          {
+            "I'm currently working as Senior 3D Artist at Bohemia InteractiveSimulations in London. In addition to my full-time work, I havereleased some games, most notably, Congo (PC) and The Lawless (iOS &Android) as well as a few 2D mobile apps and games."
+          }
         </Text>
         <Text fontWeight={"light"} fontSize={"18px"}>
-          Congo was built using Unreal Engine 4 and was chosen by Epic to
-          showcase the next gen tech at EGX 2014 in London and is now available
-          on Steam!
+          {
+            "Congo was built using Unreal Engine 4 and was chosen by Epic to showcase the next gen tech at EGX 2014 in London and is now available on Steam!"
+          }
         </Text>
         <Text fontWeight={"light"} fontSize={"18px"}>
-          Previously, I was supervising the modelling team at Jellyfish
-          Pictures, producing content for Dreamworks Animation. At Jellyfish, I
-          also supervised a number of their Unreal Engine 4 projects including a
-          VR experience, a project delivering UE4 character assets and
-          animations and some tech demos for replacing traditional VFX renderers
-          with real time rendering for high-profile external clients. I was also
-          Asset Lead for a 52-part full-CG TV show for BBC called Dennis &
-          Gnasher: Unleashed.
+          {
+            "Previously, I was supervising the modelling team at Jellyfish Pictures, producing content for Dreamworks Animation. At Jellyfish, I also supervised a number of their Unreal Engine 4 projects including a VR experience, a project delivering UE4 character assets and animations and some tech demos for replacing traditional VFX renderers with real time rendering for high-profile external clients. I was also Asset Lead for a 52-part full-CG TV show for BBC called Dennis & Gnasher: Unleashed."
+          }
         </Text>
         <Text fontWeight={"light"} fontSize={"18px"}>
-          I have skills in a number of software packages such as Maya, Unreal
-          Engine 4, Substance, Mari, Adobe Creative Apps (Photoshop,After
-          Effects etc.), zBrush and render engines - Redshift and Arnold.
+          {
+            "I have skills in a number of software packages such as Maya, Unreal Engine 4, Substance, Mari, Adobe Creative Apps (Photoshop,After Effects etc.), zBrush and render engines - Redshift and Arnold."
+          }
         </Text>
         <Flex w="100%" justify={"center"}>
           <Button
