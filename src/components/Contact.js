@@ -10,19 +10,29 @@ import {
   Textarea,
 } from "@chakra-ui/react";
 import bg2 from "../assets/Akash_bg.png";
+import profile from "../assets/Akash_profile.jpg";
 
 export default function Contact() {
   const handelSubmit = () => {};
   return (
     <Stack
+      zIndex={100}
       w="100%"
       py="100px"
       bgImg={`url(${bg2.src})`}
       backgroundSize={"cover"}
       align={"center"}
       justify={"center"}
+      id="contact"
     >
-      <Image />
+      <Image
+        src={profile.src}
+        alt="profile"
+        w={["250px", "300px", "300px"]}
+        h={["250px", "300px", "300px"]}
+        borderRadius={"50%"}
+        mb="40px"
+      />
       <Stack
         className="contact_form"
         w="800px"

@@ -5,12 +5,15 @@ import bg3 from "../assets/Akash_bg2.png";
 export default function About() {
   return (
     <Flex
+      zIndex={100}
       w="100%"
       py="100px"
       justify={"center"}
       align={"center"}
       bgImg={`url(${bg3.src})`}
       bgSize={"cover"}
+      id="about"
+      mb="50vh"
     >
       <Stack
         w="800px"

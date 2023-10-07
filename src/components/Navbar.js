@@ -1,4 +1,4 @@
-import { Flex, Text, Stack, Image } from "@chakra-ui/react";
+import { Flex, Text, Stack, Image, Link } from "@chakra-ui/react";
 import React from "react";
 import {
   Drawer,
@@ -19,9 +19,9 @@ export default function Navbar() {
   const NavBarLinks = [
     { name: "HOME", link: "/" },
     { name: "SKILLS", link: "/#skills" },
-    { name: "PORTFOLIO", link: "/impact" },
-    { name: "ABOUT ME", link: "/projects" },
-    { name: "CONTACT", link: "/concepts" },
+    { name: "PORTFOLIO", link: "/#portfolio" },
+    { name: "ABOUT ME", link: "/#about" },
+    { name: "CONTACT", link: "/#contact" },
   ];
   return (
     <>
@@ -115,8 +115,18 @@ export default function Navbar() {
           color="white"
           display={["flex", "none", "none"]}
         >
-          <Image src={linkedin.src} alt="linkedin" w="40px" h="40px" />
-          <Image src={insta.src} alt="insta" w="40px" h="40px" />
+          <Link
+            href="https://www.linkedin.com/in/akash-srivastav-1934861b3/"
+            isExternal
+          >
+            <Image src={linkedin.src} alt="linkedin" w="40px" h="40px" />
+          </Link>
+          <Link
+            href="https://www.instagram.com/de_etheric_designs/?img_index=1"
+            isExternal
+          >
+            <Image src={insta.src} alt="insta" w="40px" h="40px" />
+          </Link>
         </Flex>
         <Flex display={["flex", "none", "none"]} w="20%" align={"center"}>
           <Image src={hamburgerIcon.src} onClick={onOpen} alt="icon" />
