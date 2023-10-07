@@ -1,8 +1,17 @@
 import React from "react";
 import { Flex, Text, Stack, Image, Box, Button } from "@chakra-ui/react";
 import bg3 from "../assets/Akash_bg2.png";
+import { useRouter } from "next/router";
 
 export default function About() {
+  const pdfFile = "/Akash_resume.pdf";
+  const router = useRouter();
+  const openPdfInNewTab = () => {
+    const newTab = window.open(pdfFile, "_blank");
+    if (newTab) {
+      newTab.opener = null; // Prevents the new tab from being able to navigate the opener (your app).
+    }
+  };
   return (
     <Flex
       zIndex={100}
@@ -55,6 +64,7 @@ export default function About() {
             bg="transparent"
             border="1px solid black"
             className="button"
+            onClick={openPdfInNewTab}
           >
             DOWNLOAD MY CV
           </Button>

@@ -62,10 +62,7 @@ export default function Contact() {
               Currently working and living in Pune, Maharashtra, India.
             </Text>
             <Text fontWeight={"light"} fontSize={"18px"}>
-              jackbromheaduk@gmail.com
-            </Text>
-            <Text fontWeight={"light"} fontSize={"18px"}>
-              Tel: +44 (0) 7757634528
+              akashsri3d@gmail.com
             </Text>
           </Stack>
           <Stack w={["100%", "100%", "50%"]} align={"center"}>

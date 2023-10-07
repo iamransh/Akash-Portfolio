@@ -27,7 +27,7 @@ export default function Skills() {
       <Flex w="100%" justify={"center"} flexWrap={"wrap"}>
         <Flex flexWrap={"wrap"} justify={"center"}>
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
-            <Image src={maya.src} alt="maya" w="150px" h="150px" />
+            <Image src={maya.src} alt="maya" w="120px" h="120px" />
             <Text fontSize={"22px"}>MAYA</Text>
             <Text textAlign={"center"} fontSize={"18px"}>
               Modelling, Shading and Lighting skills for rendering in Maya or
@@ -35,7 +35,7 @@ export default function Skills() {
             </Text>
           </Stack>
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
-            <Image src={painter.src} alt="zbrush" w="150px" h="150px" />
+            <Image src={painter.src} alt="zbrush" w="120px" h="120px" />
             <Text fontSize={"22px"}> SUBSTANCE PAINTER</Text>
             <Text textAlign={"center"} fontSize={"18px"}>
               3D Sculpting, Modelling, Surface detailing work for baked texture
@@ -45,7 +45,7 @@ export default function Skills() {
         </Flex>
         <Flex flexWrap={"wrap"} justify={"center"}>
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
-            <Image src={zbrush.src} alt="zbrush" w="150px" h="150px" />
+            <Image src={zbrush.src} alt="zbrush" w="120px" h="120px" />
             <Text fontSize={"22px"}>zBRUSH</Text>
             <Text textAlign={"center"} fontSize={"18px"}>
               3D Sculpting, Modelling, Surface detailing work for baked texture
@@ -53,7 +53,7 @@ export default function Skills() {
             </Text>
           </Stack>
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
-            <Image src={blender.src} alt="maya" w="150px" h="150px" />
+            <Image src={blender.src} alt="maya" w="120px" h="120px" />
             <Text fontSize={"22px"}>BLENDER</Text>
             <Text textAlign={"center"} fontSize={"18px"}>
               Modelling, Shading and Lighting skills for rendering in Maya or
