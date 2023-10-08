@@ -5,6 +5,7 @@ import zbrush from "../assets/Akash_zbrush_logo.png";
 import painter from "../assets/Akash_painter_logo.png";
 import blender from "../assets/Akash_blender_logo.png";
 import bg2 from "../assets/Akash_bg.png";
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 export default function Skills() {
   return (
@@ -33,6 +34,13 @@ export default function Skills() {
               Modelling, Shading and Lighting skills for rendering in Maya or
               exporting out for game engines
             </Text>
+            <Flex mt="5px">
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiOutlineStar />
+            </Flex>
           </Stack>
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
             <Image src={painter.src} alt="zbrush" w="120px" h="120px" />
@@ -41,6 +49,13 @@ export default function Skills() {
               3D Sculpting, Modelling, Surface detailing work for baked texture
               maps.
             </Text>
+            <Flex mt="5px">
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiOutlineStar />
+            </Flex>
           </Stack>
         </Flex>
         <Flex flexWrap={"wrap"} justify={"center"}>
@@ -51,6 +66,13 @@ export default function Skills() {
               3D Sculpting, Modelling, Surface detailing work for baked texture
               maps.
             </Text>
+            <Flex mt="5px">
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiOutlineStar />
+            </Flex>
           </Stack>
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
             <Image src={blender.src} alt="maya" w="120px" h="120px" />
@@ -59,6 +81,13 @@ export default function Skills() {
               Modelling, Shading and Lighting skills for rendering in Maya or
               exporting out for game engines
             </Text>
+            <Flex mt="5px">
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiOutlineStar />
+            </Flex>
           </Stack>
         </Flex>
       </Flex>

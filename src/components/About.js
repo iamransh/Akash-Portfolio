@@ -39,22 +39,22 @@ export default function About() {
         </Flex>
         <Text fontWeight={"light"} fontSize={"18px"}>
           {
-            "I'm currently working as Senior 3D Artist at Bohemia InteractiveSimulations in London. In addition to my full-time work, I havereleased some games, most notably, Congo (PC) and The Lawless (iOS &Android) as well as a few 2D mobile apps and games."
+            "Welcome to my 3D portfolio! I am a passionate 3D artist with 1.5 years of dedicated experience in the field. My journey began with a professional course in 3D animation at Zee Institute of Creative Arts, where I honed my skills in various 3D software tools such as Maya, Blender, ZBrush, and Substance Painter."
           }
         </Text>
         <Text fontWeight={"light"} fontSize={"18px"}>
           {
-            "Congo was built using Unreal Engine 4 and was chosen by Epic to showcase the next gen tech at EGX 2014 in London and is now available on Steam!"
+            "My creative journey didn't stop there. I further expanded my horizons by delving into the world of graphic design during my time at Pyde Pyper Marketing Agency, where I gained 9 months of valuable work experience. I had the opportunity to work on a diverse range of projects, including social media creatives, banners, brochures, and more. My proficiency with graphic design tools like Photoshop, Illustrator, and Premiere Pro allowed me to create visually compelling content that resonated with clients and their audiences."
           }
         </Text>
         <Text fontWeight={"light"} fontSize={"18px"}>
           {
-            "Previously, I was supervising the modelling team at Jellyfish Pictures, producing content for Dreamworks Animation. At Jellyfish, I also supervised a number of their Unreal Engine 4 projects including a VR experience, a project delivering UE4 character assets and animations and some tech demos for replacing traditional VFX renderers with real time rendering for high-profile external clients. I was also Asset Lead for a 52-part full-CG TV show for BBC called Dennis & Gnasher: Unleashed."
+            "One of my key strengths is my ability to seamlessly blend my 3D skills with graphic design principles, resulting in unique and eye-catching visuals. Whether it's creating stunning 3D models, textures, or graphic assets, I'm dedicated to bringing creative concepts to life."
           }
         </Text>
         <Text fontWeight={"light"} fontSize={"18px"}>
           {
-            "I have skills in a number of software packages such as Maya, Unreal Engine 4, Substance, Mari, Adobe Creative Apps (Photoshop,After Effects etc.), zBrush and render engines - Redshift and Arnold."
+            "I'm excited to showcase my portfolio, which is a testament to my growth, skills, and dedication to the world of 3D and graphic design. Feel free to explore my work, and don't hesitate to reach out for collaborations or inquiries. Let's bring your creative visions to reality together!"
           }
         </Text>
         <Flex w="100%" justify={"center"}>
