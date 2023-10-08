@@ -12,6 +12,7 @@ import { useRouter } from "next/router";
 import hamburgerIcon from "../assets/hamburgerIcon.svg";
 import linkedin from "../assets/Akash_linkedin_logo.png";
 import insta from "../assets/Akash_insta_logo.png";
+import behance from "../assets/behance_logo.png";
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -126,6 +127,9 @@ export default function Navbar() {
             isExternal
           >
             <Image src={insta.src} alt="insta" w="40px" h="40px" />
+          </Link>
+          <Link href="https://www.behance.net/skymrreal" isExternal>
+            <Image src={behance.src} alt="insta" w="40px" h="40px" />
           </Link>
         </Flex>
         <Flex display={["flex", "none", "none"]} w="20%" align={"center"}>

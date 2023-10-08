@@ -13,6 +13,7 @@ import {
 import { useRouter } from "next/router";
 import linkedin from "../assets/Akash_linkedin_logo.png";
 import insta from "../assets/Akash_insta_logo.png";
+import behance from "../assets/behance_logo.png";
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 import About from "./About";
@@ -45,7 +46,7 @@ export default function HeroSection() {
         >
           3D ARTIST & GRAPHIC DESIGNER
         </Text>
-        <Flex w="100px" justify={"space-between"} mt="10px">
+        <Flex w="150px" justify={"space-between"} mt="10px">
           <Link
             href="https://www.linkedin.com/in/akash-srivastav-1934861b3/"
             isExternal
@@ -57,6 +58,9 @@ export default function HeroSection() {
             isExternal
           >
             <Image src={insta.src} alt="insta" w="40px" h="40px" />
+          </Link>
+          <Link href="https://www.behance.net/skymrreal" isExternal>
+            <Image src={behance.src} alt="insta" w="40px" h="40px" />
           </Link>
         </Flex>
       </Stack>
