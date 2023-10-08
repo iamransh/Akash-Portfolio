@@ -6,6 +6,7 @@ import painter from "../assets/Akash_painter_logo.png";
 import blender from "../assets/Akash_blender_logo.png";
 import bg2 from "../assets/Akash_bg.png";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
 
 export default function Skills() {
   return (
@@ -30,31 +31,31 @@ export default function Skills() {
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
             <Image src={maya.src} alt="maya" w="120px" h="120px" />
             <Text fontSize={"22px"}>MAYA</Text>
-            <Text textAlign={"center"} fontSize={"18px"}>
+            {/* <Text textAlign={"center"} fontSize={"18px"}>
               Modelling, Shading and Lighting skills for rendering in Maya or
               exporting out for game engines
-            </Text>
-            <Flex mt="5px">
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiOutlineStar />
+            </Text> */}
+            <Flex mt="5px" w="120px" justify={"space-evenly"}>
+              <BsStarFill />
+              <BsStarFill />
+              <BsStarFill />
+              <BsStarFill />
+              <BsStar />
             </Flex>
           </Stack>
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
             <Image src={painter.src} alt="zbrush" w="120px" h="120px" />
             <Text fontSize={"22px"}> SUBSTANCE PAINTER</Text>
-            <Text textAlign={"center"} fontSize={"18px"}>
+            {/* <Text textAlign={"center"} fontSize={"18px"}>
               3D Sculpting, Modelling, Surface detailing work for baked texture
               maps.
-            </Text>
-            <Flex mt="5px">
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiOutlineStar />
+            </Text> */}
+            <Flex mt="5px" w="120px" justify={"space-evenly"}>
+              <BsStarFill />
+              <BsStarFill />
+              <BsStarHalf />
+              <BsStar />
+              <BsStar />
             </Flex>
           </Stack>
         </Flex>
@@ -62,31 +63,31 @@ export default function Skills() {
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
             <Image src={zbrush.src} alt="zbrush" w="120px" h="120px" />
             <Text fontSize={"22px"}>zBRUSH</Text>
-            <Text textAlign={"center"} fontSize={"18px"}>
+            {/* <Text textAlign={"center"} fontSize={"18px"}>
               3D Sculpting, Modelling, Surface detailing work for baked texture
               maps.
-            </Text>
-            <Flex mt="5px">
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiOutlineStar />
+            </Text> */}
+            <Flex mt="5px" w="120px" justify={"space-evenly"}>
+              <BsStarFill />
+              <BsStarFill />
+              <BsStar />
+              <BsStar />
+              <BsStar />
             </Flex>
           </Stack>
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
             <Image src={blender.src} alt="maya" w="120px" h="120px" />
             <Text fontSize={"22px"}>BLENDER</Text>
-            <Text textAlign={"center"} fontSize={"18px"}>
+            {/* <Text textAlign={"center"} fontSize={"18px"}>
               Modelling, Shading and Lighting skills for rendering in Maya or
               exporting out for game engines
-            </Text>
-            <Flex mt="5px">
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiOutlineStar />
+            </Text> */}
+            <Flex mt="5px" w="120px" justify={"space-evenly"}>
+              <BsStarFill />
+              <BsStarFill />
+              <BsStarFill />
+              <BsStar />
+              <BsStar />
             </Flex>
           </Stack>
         </Flex>
