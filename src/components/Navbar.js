@@ -18,7 +18,7 @@ export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const router = useRouter();
   const NavBarLinks = [
-    { name: "HOME", link: "/" },
+    { name: "HOME", link: "/#home" },
     { name: "SKILLS", link: "/#skills" },
     { name: "PORTFOLIO", link: "/#portfolio" },
     { name: "ABOUT ME", link: "/#about" },
@@ -58,11 +58,6 @@ export default function Navbar() {
                           router.push(`${link.link}`);
                         }}
                         fontWeight={"medium"}
-                        className={`navbar__link ${
-                          router.pathname === `${link.link}`
-                            ? "sidebar__link--active"
-                            : ""
-                        }`}
                       >
                         {link.name}
                       </Text>
@@ -98,11 +93,6 @@ export default function Navbar() {
                   router.push(`${link.link}`);
                 }}
                 fontWeight={"light"}
-                className={`navbar__link ${
-                  router.pathname === `${link.link}`
-                    ? "sidebar__link--active"
-                    : ""
-                }`}
               >
                 {link.name}
               </Text>

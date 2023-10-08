@@ -66,7 +66,7 @@ export default function About() {
             className="button"
             onClick={openPdfInNewTab}
           >
-            DOWNLOAD MY RESUME
+            DOWNLOAD RESUME
           </Button>
         </Flex>
       </Stack>

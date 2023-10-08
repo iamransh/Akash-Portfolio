@@ -30,6 +30,7 @@ export default function HeroSection() {
         justify={"center"}
         align={"center"}
         color={"white"}
+        id="home"
       >
         <Text
           fontSize={["2em", "3.3em", "5em"]}

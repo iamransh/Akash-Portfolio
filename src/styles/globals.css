@@ -7,22 +7,11 @@
   overflow-y: auto;
   background-color: transparent;
   position: relative;
-  background-image: url('../assets/Akash_bg_main.png');
-  background-size: cover;
-}
-.parallax-container2 {
-  height: 80vh;
-  overflow-y: auto;
-  background-color: transparent;
-  position: relative;
-  background-image: url('../assets/Akash_bg3.png');
+  background-image: url('../assets/bgFinal.jpg');
   background-size: cover;
 }
 
 .parallax-container::-webkit-scrollbar {
-  display: none;
-}
-.parallax-container2::-webkit-scrollbar {
   display: none;
 }
 
@@ -39,7 +28,3 @@
 .button2:hover{
   background-color: rgb(35,35,35) !important;
 }
-
-/* .sidebar__link--active {
-  border-bottom: 3px solid white;
-} */
