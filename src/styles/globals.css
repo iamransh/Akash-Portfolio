@@ -7,8 +7,9 @@
   overflow-y: auto;
   background-color: transparent;
   position: relative;
-  background-image: url('../assets/bgFinal.jpg');
+  background-image: url('../assets/bgFinal2.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .parallax-container::-webkit-scrollbar {
