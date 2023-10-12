@@ -14,7 +14,7 @@ import { useRouter } from "next/router";
 import linkedin from "../assets/Akash_linkedin_logo.png";
 import insta from "../assets/Akash_insta_logo.png";
 import behance from "../assets/behance_logo.png";
-import Portfolio from "./Portfolio";
+import Portfolio from "./Portfolio/Portfolio";
 import Skills from "./Skills";
 import About from "./About";
 import Contact from "./Contact";
