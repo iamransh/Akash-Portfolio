@@ -8,42 +8,47 @@ import img6 from "../../assets/weapon_vehicle_4.jpg";
 
 export default function WeaponVehicle(props) {
   return (
-    <Stack w={["95vw", "80vw", "63vw"]} mb={["80px", "100px", "120px"]}>
+    <Stack w={["95vw", "80vw", "50vw"]} mb={["80px", "100px", "120px"]}>
       <Slider ref={props.slide} {...props.settings}>
         <div>
           <Image
             src={img3.src}
             alt="img3"
-            w={["95vw", "80vw", "63vw"]}
-            h={["80vw", "60vw", "45vw"]}
+            w={["95vw", "80vw", "50vw"]}
+            h={["95vw", "80vw", "50vw"]}
           />
         </div>
         <div>
           <Image
             src={img5.src}
             alt="img5"
-            w={["95vw", "80vw", "63vw"]}
-            h={["80vw", "60vw", "45vw"]}
+            w={["95vw", "80vw", "50vw"]}
+            h={["95vw", "80vw", "50vw"]}
           />
         </div>
         <div>
           <Image
             src={img4.src}
             alt="img4"
-            w={["95vw", "80vw", "63vw"]}
-            h={["80vw", "60vw", "45vw"]}
+            w={["95vw", "80vw", "50vw"]}
+            h={["95vw", "80vw", "50vw"]}
           />
         </div>
         <div>
           <Image
             src={img6.src}
             alt="img6"
-            w={["95vw", "80vw", "63vw"]}
-            h={["80vw", "60vw", "45vw"]}
+            w={["95vw", "80vw", "50vw"]}
+            h={["95vw", "80vw", "50vw"]}
           />
         </div>
       </Slider>
-      <Text textAlign={"center"} fontWeight={"semibold"} fontSize={"2em"}>
+      <Text
+        textAlign={"center"}
+        fontWeight={"semibold"}
+        fontSize={"2em"}
+        mt="25px"
+      >
         WEAPON VEHICLE
       </Text>
       <Text>

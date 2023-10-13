@@ -6,26 +6,31 @@ import img2 from "../../assets/train_base.jpg";
 
 export default function Train(props) {
   return (
-    <Stack w={["95vw", "80vw", "63vw"]} mb={["80px", "100px", "120px"]}>
+    <Stack w={["95vw", "80vw", "50vw"]} mb={["80px", "100px", "120px"]}>
       <Slider ref={props.slide} {...props.settings}>
         <div>
           <Image
             src={img1.src}
             alt="img1"
-            w={["95vw", "80vw", "63vw"]}
-            h={["80vw", "60vw", "45vw"]}
+            w={["95vw", "80vw", "50vw"]}
+            h={["95vw", "80vw", "50vw"]}
           />
         </div>
         <div>
           <Image
             src={img2.src}
             alt="img2"
-            w={["95vw", "80vw", "63vw"]}
-            h={["80vw", "60vw", "45vw"]}
+            w={["95vw", "80vw", "50vw"]}
+            h={["95vw", "80vw", "50vw"]}
           />
         </div>
       </Slider>
-      <Text textAlign={"center"} fontWeight={"semibold"} fontSize={"2em"}>
+      <Text
+        textAlign={"center"}
+        fontWeight={"semibold"}
+        fontSize={"2em"}
+        mt="25px"
+      >
         LOW POLY MODEL
       </Text>
       <Text>

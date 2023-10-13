@@ -29,3 +29,15 @@
 .button2:hover{
   background-color: rgb(35,35,35) !important;
 }
+
+.slick-dots li button::before {
+  /* padding: 0px !important; */
+  /* color: white !important; */
+  font-size: 12px !important;
+  /* margin-top: 30px; */
+  /* width: 40px !important; */
+  /* height: 40px !important; */
+  /* border-radius: 50% !important; */
+  /* border: 1px solid black; */
+  /* opacity: 1 !important; */
+}

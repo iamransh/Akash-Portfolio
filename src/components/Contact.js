@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { send } from "emailjs-com";
 import {
   Flex,
   Text,
@@ -8,12 +9,51 @@ import {
   Button,
   Input,
   Textarea,
+  useToast,
 } from "@chakra-ui/react";
 import bg2 from "../assets/Akash_bg.png";
 import profile from "../assets/Akash_profile.jpg";
 
 export default function Contact() {
-  const handelSubmit = () => {};
+  const toast = useToast();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  const handelSubmit = () => {
+    console.log(name, email, subject, message);
+    let body = {
+      name,
+      email,
+      subject,
+      message,
+    };
+    if (!name || !email || !subject || !message) {
+      toast({
+        title: `error toast`,
+        status: "error",
+        isClosable: true,
+      });
+
+      return;
+    }
+    send("service_rgdxfns", "template_6dtjq0a", body, "NA0GC-Pna657X0c58")
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        toast({
+          title: `success toast`,
+          status: "success",
+          isClosable: true,
+        });
+        setName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
+  };
   return (
     <Stack
       zIndex={100}
@@ -66,7 +106,7 @@ export default function Contact() {
             </Text>
           </Stack>
           <Stack w={["100%", "100%", "50%"]} align={"center"}>
-            <form onSubmit={handelSubmit} style={{ width: "90%" }}>
+            <Box w="90%">
               <Stack w="100%" gap="2" align="center">
                 <Input
                   name="name"
@@ -76,40 +116,61 @@ export default function Contact() {
                   required
                   width={["90%", "70%", "100%"]}
                   height="35px"
+                  onChange={(e) => {
+                    setName(e.target.value);
+                  }}
+                  value={name}
                 />
                 <Input
-                  name="Email"
+                  name="email"
                   borderRadius={"0"}
                   borderColor={"black"}
                   placeholder="Email"
                   required
                   width={["90%", "70%", "100%"]}
                   height="35px"
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                  }}
+                  value={email}
                 />
                 <Input
-                  name="Subject"
+                  name="subject"
                   borderRadius={"0"}
                   borderColor={"black"}
                   placeholder="Subject"
                   required
                   width={["90%", "70%", "100%"]}
                   height="35px"
+                  onChange={(e) => {
+                    setSubject(e.target.value);
+                  }}
+                  value={subject}
                 />
                 <Textarea
-                  name="Message"
+                  name="message"
                   borderRadius={"0"}
                   borderColor={"black"}
                   placeholder="Message"
                   required
                   width={["90%", "70%", "100%"]}
+                  onChange={(e) => {
+                    setMessage(e.target.value);
+                  }}
+                  value={message}
                 />
                 <Flex width={["90%", "70%", "100%"]} justify={"flex-end"}>
-                  <Button bg="rgb(35,35,35)" color="white" className="button2">
+                  <Button
+                    bg="rgb(35,35,35)"
+                    color="white"
+                    className="button2"
+                    onClick={handelSubmit}
+                  >
                     Send
                   </Button>
                 </Flex>
               </Stack>
-            </form>
+            </Box>
           </Stack>
         </Flex>
       </Stack>
