@@ -34,10 +34,9 @@ export default function BlackSheep(props) {
         BLACK SHEEP
       </Text>
       <Text>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea tempore,
-        quidem doloremque commodi itaque ad quaerat numquam modi voluptate rerum
-        accusamus sapiente temporibus culpa reiciendis fugit sunt impedit ipsa
-        natus.
+        {
+          "This mesmerizing scene was crafted using Autodesk Maya, where I envisioned a concept for a track cover titled 'Black Sheep' (please note that this is not an official cover). My primary emphasis in this composition revolves around the captivating textures and exquisite lighting. It's important to mention that every element, except for the sheep, was meticulously created by myself. To bring this vision to life, I harnessed the power of the Arnold render engine."
+        }
       </Text>
     </Stack>
   );

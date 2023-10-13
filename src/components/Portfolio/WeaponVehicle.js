@@ -52,10 +52,12 @@ export default function WeaponVehicle(props) {
         WEAPON VEHICLE
       </Text>
       <Text>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea tempore,
-        quidem doloremque commodi itaque ad quaerat numquam modi voluptate rerum
-        accusamus sapiente temporibus culpa reiciendis fugit sunt impedit ipsa
-        natus.
+        This gaming prop was crafted using Autodesk Maya software, where it
+        underwent meticulous modeling and intricate texturing. To enhance its
+        visual appeal, we played around with various lighting techniques and
+        high-quality HDRIs. The textures were skillfully created using Substance
+        Painter, which greatly assisted in wrapping the object. Lastly, the
+        rendering was done using the powerful Arnold engine.
       </Text>
     </Stack>
   );

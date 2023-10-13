@@ -36,7 +36,7 @@ export default function Portfolio() {
         <WeaponVehicle settings={settings} slide={slide} />
         <BlackSheep settings={settings} slide={slide} />
         <Donut settings={settings} slide={slide} />
-        <Marshall settings={settings} slide={slide} />
+        {/* <Marshall settings={settings} slide={slide} /> */}
         <Machine settings={settings} slide={slide} />
         <Train settings={settings} slide={slide} />
         <Box width={["95vw", "80vw", "50vw"]}>
@@ -61,10 +61,9 @@ export default function Portfolio() {
           ANIMATIONS
         </Text>
         <Text w={["95vw", "80vw", "50vw"]}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea tempore,
-          quidem doloremque commodi itaque ad quaerat numquam modi voluptate
-          rerum accusamus sapiente temporibus culpa reiciendis fugit sunt
-          impedit ipsa natus.
+          {
+            "I've created a cool mix of animations using Autodesk Maya and Blender, giving you a glimpse of my animation skills. This is a fun way to see what I can do with 3D animation!"
+          }
         </Text>
       </Stack>
     </Stack>

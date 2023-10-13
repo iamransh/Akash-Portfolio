@@ -88,10 +88,9 @@ export default function Donut(props) {
         DONUT
       </Text>
       <Text>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea tempore,
-        quidem doloremque commodi itaque ad quaerat numquam modi voluptate rerum
-        accusamus sapiente temporibus culpa reiciendis fugit sunt impedit ipsa
-        natus.
+        {
+          "This delightful donut was crafted in Blender, marking the beginning of my journey with this software. As a Maya user, transitioning to Blender posed a bit of a challenge, but with some fundamental 3D knowledge, it became quite manageable. Along the way, I've delved into a host of new skills in Blender, including geometry nodes, shading, and sculpting. It's worth noting that the Cycle Render engine played a crucial role in delivering this stunning result."
+        }
       </Text>
     </Stack>
   );

@@ -85,13 +85,12 @@ export default function AppleVision(props) {
         fontSize={"2em"}
         mt="25px"
       >
-        APPLE VISION
+        APPLE VISION PRO
       </Text>
       <Text>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea tempore,
-        quidem doloremque commodi itaque ad quaerat numquam modi voluptate rerum
-        accusamus sapiente temporibus culpa reiciendis fugit sunt impedit ipsa
-        natus.
+        {
+          "I created this product using Autodesk Maya, where I focused on precise modeling and texturing. When it came to texturing, I utilized Physically Based Rendering (PBR) materials and adjusted texture attributes to achieve the desired look. From setting up the lighting to the final rendering, I handled all aspects within Maya, employing the Arnold rendering engine for high-quality output."
+        }
       </Text>
     </Stack>
   );

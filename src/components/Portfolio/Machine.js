@@ -34,10 +34,9 @@ export default function Machine(props) {
         MACHINE
       </Text>
       <Text>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea tempore,
-        quidem doloremque commodi itaque ad quaerat numquam modi voluptate rerum
-        accusamus sapiente temporibus culpa reiciendis fugit sunt impedit ipsa
-        natus.
+        {
+          "I created this model using Autodesk Maya during my early days of learning the software. It's a project where I got to explore texturing and basic lighting techniques. For the first time, I used Substance Painter for texturing, and I rendered it using the Arnold engine"
+        }
       </Text>
     </Stack>
   );

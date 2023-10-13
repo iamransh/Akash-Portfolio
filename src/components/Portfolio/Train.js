@@ -31,13 +31,12 @@ export default function Train(props) {
         fontSize={"2em"}
         mt="25px"
       >
-        LOW POLY MODEL
+        TRAIN
       </Text>
       <Text>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea tempore,
-        quidem doloremque commodi itaque ad quaerat numquam modi voluptate rerum
-        accusamus sapiente temporibus culpa reiciendis fugit sunt impedit ipsa
-        natus.
+        {
+          "I created this cool Low Poly Train Model using Autodesk Maya, where I learned how to add textures, played around with lighting, and even dabbled in using PRB materials. To give it that final touch, I used the Arnold rendering engine."
+        }
       </Text>
     </Stack>
   );
