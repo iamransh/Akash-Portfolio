@@ -20,7 +20,7 @@ export default function WeaponVehicle(props) {
         </div>
         <div>
           <Image
-            src={img5.src}
+            src={img4.src}
             alt="img5"
             w={["95vw", "80vw", "50vw"]}
             h={["95vw", "80vw", "50vw"]}
@@ -28,7 +28,7 @@ export default function WeaponVehicle(props) {
         </div>
         <div>
           <Image
-            src={img4.src}
+            src={img5.src}
             alt="img4"
             w={["95vw", "80vw", "50vw"]}
             h={["95vw", "80vw", "50vw"]}
