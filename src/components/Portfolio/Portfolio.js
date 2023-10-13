@@ -39,7 +39,7 @@ export default function Portfolio() {
         {/* <Marshall settings={settings} slide={slide} /> */}
         <Machine settings={settings} slide={slide} />
         <Train settings={settings} slide={slide} />
-        <Box width={["95vw", "80vw", "50vw"]}>
+        <Box width={["95vw", "80vw", "40vw"]}>
           <ReactPlayer
             width={"100%"}
             height={"100%"}
