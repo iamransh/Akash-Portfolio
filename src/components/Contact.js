@@ -30,7 +30,7 @@ export default function Contact() {
     };
     if (!name || !email || !subject || !message) {
       toast({
-        title: `error toast`,
+        title: `Some Error Occured. Try Again!`,
         status: "error",
         isClosable: true,
       });
@@ -41,7 +41,7 @@ export default function Contact() {
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
         toast({
-          title: `success toast`,
+          title: `Email Sent Successfully`,
           status: "success",
           isClosable: true,
         });
