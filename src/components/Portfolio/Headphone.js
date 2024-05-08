@@ -9,6 +9,7 @@ import img5 from "../../assets/headphone-5.jpg";
 import img6 from "../../assets/headphone-6.jpg";
 import img7 from "../../assets/headphone-7.jpg";
 import img8 from "../../assets/headphone-8.jpg";
+import img9 from "../../assets/headphone-9.jpg";
 
 export default function Headphone(props) {
   return (
@@ -72,6 +73,14 @@ export default function Headphone(props) {
         </div>
         <div>
           <Image
+            src={img9.src}
+            alt="img9"
+            w={["95vw", "80vw", "50vw"]}
+            h={["95vw", "80vw", "50vw"]}
+          />
+        </div>
+        <div>
+          <Image
             src={img8.src}
             alt="img8"
             w={["95vw", "80vw", "50vw"]}
@@ -85,7 +94,7 @@ export default function Headphone(props) {
         fontSize={"2em"}
         mt="25px"
       >
-        Headphones
+        HEADPHONE
       </Text>
       <Text>
         {

@@ -7,7 +7,7 @@ import Machine from "./Machine";
 import AppleVision from "./AppleVision";
 import BlackSheep from "./BlackSheep";
 import Headphone from "./Headphone";
-const VIDEO_PATH = "/all-in-one.mp4";
+const VIDEO_PATH = "/all-in-one-2.mp4";
 
 export default function Portfolio() {
   const playerRef = useRef(null);
