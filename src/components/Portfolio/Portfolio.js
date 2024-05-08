@@ -3,11 +3,10 @@ import { Flex, Text, Stack, Image, Box, Button } from "@chakra-ui/react";
 import ReactPlayer from "react-player";
 import Train from "./Train";
 import WeaponVehicle from "./WeaponVehicle";
-import Marshall from "./Marshall";
 import Machine from "./Machine";
 import AppleVision from "./AppleVision";
-import Donut from "./Donut";
 import BlackSheep from "./BlackSheep";
+import Headphone from "./Headphone";
 const VIDEO_PATH = "/all-in-one.mp4";
 
 export default function Portfolio() {
@@ -32,10 +31,11 @@ export default function Portfolio() {
         <Flex w="50px" h="3px" bg="black"></Flex>
       </Flex>
       <Stack w="100%" align={"center"} mt="10px">
+        <Headphone settings={settings} slide={slide} />
         <AppleVision settings={settings} slide={slide} />
         <WeaponVehicle settings={settings} slide={slide} />
         <BlackSheep settings={settings} slide={slide} />
-        <Donut settings={settings} slide={slide} />
+        {/* <Donut settings={settings} slide={slide} /> */}
         {/* <Marshall settings={settings} slide={slide} /> */}
         <Machine settings={settings} slide={slide} />
         <Train settings={settings} slide={slide} />

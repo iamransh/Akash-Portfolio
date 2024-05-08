@@ -53,20 +53,17 @@ export default function Skills() {
             <Flex mt="5px" w="120px" justify={"space-evenly"}>
               <BsStarFill />
               <BsStarFill />
-              <BsStarHalf />
+              <BsStarFill />
+              {/* <BsStarHalf /> */}
               <BsStar />
               <BsStar />
             </Flex>
           </Stack>
         </Flex>
         <Flex flexWrap={"wrap"} justify={"center"}>
-          <Stack w="220px" py="30px" mx="30px" align={"center"}>
+          {/* <Stack w="220px" py="30px" mx="30px" align={"center"}>
             <Image src={zbrush.src} alt="zbrush" w="120px" h="120px" />
             <Text fontSize={"22px"}>zBRUSH</Text>
-            {/* <Text textAlign={"center"} fontSize={"18px"}>
-              3D Sculpting, Modelling, Surface detailing work for baked texture
-              maps.
-            </Text> */}
             <Flex mt="5px" w="120px" justify={"space-evenly"}>
               <BsStarFill />
               <BsStarFill />
@@ -74,7 +71,7 @@ export default function Skills() {
               <BsStar />
               <BsStar />
             </Flex>
-          </Stack>
+          </Stack> */}
           <Stack w="220px" py="30px" mx="30px" align={"center"}>
             <Image src={blender.src} alt="maya" w="120px" h="120px" />
             <Text fontSize={"22px"}>BLENDER</Text>
@@ -86,7 +83,7 @@ export default function Skills() {
               <BsStarFill />
               <BsStarFill />
               <BsStarFill />
-              <BsStar />
+              <BsStarFill />
               <BsStar />
             </Flex>
           </Stack>

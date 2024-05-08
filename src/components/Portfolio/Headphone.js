@@ -1,16 +1,16 @@
 import React, { useRef } from "react";
 import { Flex, Text, Stack, Image, Box, Button } from "@chakra-ui/react";
 import Slider from "react-slick";
-import img1 from "../../assets/donut-1.png";
-import img2 from "../../assets/donut-2.png";
-import img3 from "../../assets/donut-3.png";
-import img4 from "../../assets/donut-4.png";
-import img5 from "../../assets/donut-5.png";
-import img6 from "../../assets/donut-6.png";
-// import img7 from "../../assets/donut-7.png";
-// import img8 from "../../assets/donut-8.png";
+import img1 from "../../assets/headphone-1.jpg";
+import img2 from "../../assets/headphone-2.jpg";
+import img3 from "../../assets/headphone-3.jpg";
+import img4 from "../../assets/headphone-4.jpg";
+import img5 from "../../assets/headphone-5.jpg";
+import img6 from "../../assets/headphone-6.jpg";
+import img7 from "../../assets/headphone-7.jpg";
+import img8 from "../../assets/headphone-8.jpg";
 
-export default function Donut(props) {
+export default function Headphone(props) {
   return (
     <Stack w={["95vw", "80vw", "50vw"]} mb={["80px", "100px", "120px"]}>
       <Slider ref={props.slide} {...props.settings}>
@@ -62,22 +62,22 @@ export default function Donut(props) {
             h={["95vw", "80vw", "50vw"]}
           />
         </div>
-        {/* <div>
-        <Image
-          src={img7.src}
-          alt="img7"
-          w={["95vw", "80vw", "60vw"]}
-          h={["80vw", "60vw", "45vw"]}
-        />
-      </div>
-      <div>
-        <Image
-          src={img8.src}
-          alt="img8"
-          w={["95vw", "80vw", "60vw"]}
-          h={["80vw", "60vw", "45vw"]}
-        />
-      </div> */}
+        <div>
+          <Image
+            src={img7.src}
+            alt="img7"
+            w={["95vw", "80vw", "50vw"]}
+            h={["95vw", "80vw", "50vw"]}
+          />
+        </div>
+        <div>
+          <Image
+            src={img8.src}
+            alt="img8"
+            w={["95vw", "80vw", "50vw"]}
+            h={["95vw", "80vw", "50vw"]}
+          />
+        </div>
       </Slider>
       <Text
         textAlign={"center"}
@@ -85,11 +85,11 @@ export default function Donut(props) {
         fontSize={"2em"}
         mt="25px"
       >
-        DONUT
+        Headphones
       </Text>
       <Text>
         {
-          "This delightful donut was crafted in Blender, marking the beginning of my journey with this software. As a Maya user, transitioning to Blender posed a bit of a challenge, but with some fundamental 3D knowledge, it became quite manageable. Along the way, I've delved into a host of new skills in Blender, including geometry nodes, shading, and sculpting. It's worth noting that the Cycle Render engine played a crucial role in delivering this stunning result."
+          "In the early stages of my journey with Blender, I embarked on a solo project that encompassed modeling, animation, and post-production. This immersive experience not only honed my skills in Blender but also deepened my understanding of animation principles such as graph editing and camera techniques. The project served as a testament to my dedication and growth in the field."
         }
       </Text>
     </Stack>
