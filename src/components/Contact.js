@@ -37,7 +37,7 @@ export default function Contact() {
 
       return;
     }
-    send("service_rgdxfns", "template_6dtjq0a", body, "NA0GC-Pna657X0c58")
+    send("service_7dlye6m", "template_m1tprjw", body, "vssU9iw2BC8NX60Hs")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
         toast({
